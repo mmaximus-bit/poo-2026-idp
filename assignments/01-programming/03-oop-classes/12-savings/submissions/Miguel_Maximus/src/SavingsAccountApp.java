@@ -20,7 +20,7 @@ public class SavingsAccountApp {
                 System.out.printf("Mês %d: R$%.2f%n", mes, account.getSavingsBalance());
             }
 
-            System.out.print("%nInforme a nova taxa de juros anual (%): ");
+            System.out.printf("%nInforme a nova taxa de juros anual (%%): ");
             double novaTaxa = scanner.nextDouble();
 
             SavingsAccount.setAnnualInterestRate(novaTaxa);
